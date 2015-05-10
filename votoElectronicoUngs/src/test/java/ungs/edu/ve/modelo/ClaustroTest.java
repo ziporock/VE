@@ -9,7 +9,7 @@ public class ClaustroTest {
 
 	private static final long ID=1000l;
 	private static final String DESCRIPCION="CLAUSTRO DE PERSONAL DOCENTE";
-	private static final String NOMBRE="DOCENTES";
+	private static final String NOMBRE="DOCENTESewss";
 	
 	
 	
