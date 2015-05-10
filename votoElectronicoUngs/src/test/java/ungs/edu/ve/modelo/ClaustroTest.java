@@ -22,7 +22,7 @@ public class ClaustroTest {
         claustro.setId(ID);
         claustro.setNombre(NOMBRE);
         claustro.setDescripcion(DESCRIPCION);
-        
+        System.out.println("Pruebo");
       }
  
     @Test
