@@ -8,6 +8,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 import ungs.edu.ve.controlador.ControladorLogueoUsuarios;
+import ungs.edu.ve.util.CONSTANTE;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -53,7 +54,15 @@ public class LogueoUsuarioVista {
 			public void actionPerformed(ActionEvent arg0) {
 				String usuario = userText.getText();
 				String pass = new String(passwordText.getPassword());
-				controladorLogueoUsuarios.ingresarUsuario(usuario, pass);
+				Boolean logueo=controladorLogueoUsuarios.ingresarUsuario(usuario, pass);
+				
+				if(logueo){
+					PresidenteMesa.iniciar();
+				}else{
+					PantallaError pantallaError=new PantallaError(CONSTANTE.LOGUE_INVALIDO);
+				}
+				
+				
 			}
 		});
 		loginButton.setBounds(10, 86, 119, 25);
