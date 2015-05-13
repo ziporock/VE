@@ -11,5 +11,9 @@ asdasdasd
 
 zxczxcsdf
 
+<<<<<<< HEAD
 a
 asdasdasdsdsad
+=======
+asdsad
+>>>>>>> branch 'master' of https://github.com/ziporock/VE
