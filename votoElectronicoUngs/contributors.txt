@@ -1,19 +1,14 @@
-<<<<<<< HEAD
-Sergio Gastonas
-=======
->>>>>>> branch 'master' of https://github.com/ziporock/VE
+syncronice
 
-asdasdasd
+merge
 
-<zlkjhx<lkzxzxczxczxc
-=======
+commit local
+
+pull
+
+borrar lo agrega el pool a mano
 
 
-zxczxcsdf
+add to index
 
-<<<<<<< HEAD
-a
-asdasdasdsdsad
-=======
-asdsad
->>>>>>> branch 'master' of https://github.com/ziporock/VE
+commit and push
