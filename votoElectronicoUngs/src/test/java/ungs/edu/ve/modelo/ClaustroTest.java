@@ -11,7 +11,8 @@ public class ClaustroTest {
 	private static final String DESCRIPCION="CLAUSTRO DE PERSONAL DOCENTE";
 	private static final String NOMBRE="DOCENTESewss";
 	
-	
+	private static final String NOMBRaE="DOCENTESewss";
+
 	
 	private Claustro claustro;
 	 
