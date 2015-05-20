@@ -1,1 +1,14 @@
-Sergio Gastonas
+syncronice
+
+merge
+
+commit local
+
+pull
+
+borrar lo agrega el pool a mano
+
+
+add to index
+
+commit and push

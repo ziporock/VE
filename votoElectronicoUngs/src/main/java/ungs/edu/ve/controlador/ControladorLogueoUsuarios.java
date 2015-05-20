@@ -18,7 +18,7 @@ public class ControladorLogueoUsuarios {
 		cargarRolUsuario();
 		
 		usuarioDAO=new UsuarioDAOImpl();
-		Usuario usuario=usuarioDAO.obtenerUsuario(user, pass);
+		Usuario usuario=usuarioDAO.obtenerUsuario(user, encriptarMD5(pass));
 		
 		if(usuario!=null){
 			return true;
@@ -28,7 +28,7 @@ public class ControladorLogueoUsuarios {
 	}
 	
 	
-	public StringBuffer encriptarMD5(String contrasenia) {
+	public String encriptarMD5(String contrasenia) {
 		String password = contrasenia;
 
 		MessageDigest md = null;
@@ -48,7 +48,7 @@ public class ControladorLogueoUsuarios {
 					.substring(1));
 		}
 
-		return sb;
+		return sb.toString();
 	}
 
 	
@@ -72,7 +72,7 @@ public class ControladorLogueoUsuarios {
 		usuario.setNombre("nombre 1");
 		usuario.setApellido("apellido 1");
 		usuario.setNombreUsuario("user");
-		usuario.setContrasenia("user");
+		usuario.setContrasenia(encriptarMD5("user"));
 		usuario.setRol(rol);
 		
 		

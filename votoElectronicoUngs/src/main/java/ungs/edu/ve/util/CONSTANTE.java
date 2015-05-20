@@ -14,5 +14,8 @@ public interface CONSTANTE {
 	Long CODIGO_INICIAL = 1L;
 	Long CODIGO_PROCESO = 2L;
 	Long CODIGO_FINALIZADO = 3L;
+	
+	String LOGUE_INVALIDO = "Datos de logue invalido";
+
 
 }
